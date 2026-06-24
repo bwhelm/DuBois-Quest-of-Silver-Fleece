@@ -63,3 +63,21 @@ p.center{
 	text-align-last: center;
 }
 /* End centered paragraph */
+
+header{
+	font-style: italic;
+	font-variant: small-caps;
+	margin: 1em;
+	text-align: center;
+}
+
+#chapter-38-conclusion > p{
+	font-style: italic;
+}
+
+#chapter-38-conclusion b{
+	display: block;
+	font-style: normal;
+	margin-top: 2em;
+	text-align: center;
+}

@@ -30,6 +30,17 @@ section[epub|type~="dedication"] > *{
 }
 /* End centered dedications */
 
+/* Preface */
+section[epub|type~="preface"]{
+	margin-top: 20vh;
+}
+
+#preface footer{
+	margin-top: 1em;
+	text-align: right;
+}
+/* End preface */
+
 /* Poems */
 [epub|type~="z3998:poem"] p{
 	text-align: initial;
@@ -51,12 +62,6 @@ p span.i1{
 	text-indent: -1em;
 }
 /* End poems */
-
-/* Preface */
-section[epub|type~="preface"]{
-	margin-top: 20vh;
-}
-/* End preface */
 
 /* Centered paragraph */
 p.center{

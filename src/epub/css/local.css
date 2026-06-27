@@ -69,6 +69,7 @@ p.center{
 }
 /* End centered paragraph */
 
+/* L'Envoi */
 header{
 	font-style: italic;
 	font-variant: small-caps;
@@ -86,3 +87,4 @@ header{
 	margin-top: 2em;
 	text-align: center;
 }
+/* End L'Envoi */

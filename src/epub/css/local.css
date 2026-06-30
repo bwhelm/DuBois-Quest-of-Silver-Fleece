@@ -1,6 +1,14 @@
 @charset "utf-8";
 @namespace epub "http://www.idpf.org/2007/ops";
 
+/* Header */
+header{
+	font-variant: small-caps;
+	margin: 1em;
+	text-align: center;
+}
+/* End header */
+
 /* Centered dedications */
 section[epub|type~="dedication"]{
 	text-align: center;
@@ -92,12 +100,6 @@ p span.i1{
 /* End centered blockquotes */
 
 /* L'Envoi */
-header{
-	font-variant: small-caps;
-	margin: 1em;
-	text-align: center;
-}
-
 #chapter-38-conclusion > p{
 	font-style: italic;
 }
